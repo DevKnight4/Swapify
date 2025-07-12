@@ -22,6 +22,8 @@ const Navbar = () => {
     };
 
     return (
+
+
         <header className="bg-card border-b border-border sticky top-0 z-50 backdrop-blur-sm bg-card/95">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
@@ -73,6 +75,11 @@ const Navbar = () => {
                         </Button>
                     </div>
                 </div>
+
+                <div className="p-4 m-4 bg-red-500 text-white text-lg">
+                    Tailwind is working ✅
+                </div>
+
 
                 {mobileMenuOpen && (
                     <div className="md:hidden py-4 border-t border-border bg-card/80 backdrop-blur-sm">
